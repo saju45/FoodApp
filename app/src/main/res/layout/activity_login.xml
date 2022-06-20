@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.LoginActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginBottom="15dp"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:padding="8dp"
+                    android:src="@drawable/dinner"
+                    app:tint="@color/tint_logo_color" />
+
+                <TextView
+                    android:id="@+id/cafehouse"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="cursive"
+                    android:padding="8dp"
+                    android:text="Cafe House"
+                    android:textAlignment="center"
+                    android:textColor="@color/end_color_gradient"
+                    android:textSize="60sp"
+                    android:layout_marginBottom="20dp"
+                    />
+
+
+                <EditText
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/edit_bg"
+                    android:gravity="center"
+                    android:hint="email"
+                    android:padding="10dp" />
+
+                <EditText
+                    android:padding="10dp"
+                    android:background="@drawable/edit_bg"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="center"
+                    android:id="@+id/password"
+                    android:hint="password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/login"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@color/white"
+                    android:text="sign in"
+                    android:background="@drawable/btn_gradiant"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <View
+                        android:layout_width="50dp"
+                        android:layout_height="2dp"/>
+
+                    <TextView
+                        android:padding="5dp"
+                        android:text="Or With"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <View
+                        android:layout_width="50dp"
+                        android:layout_height="2dp"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="20dp"
+                    android:weightSum="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:id="@+id/facebook"
+                        android:layout_marginEnd="5dp"
+                        android:textColor="@color/white"
+                        android:drawableLeft="@drawable/face"
+                        android:padding="10dp"
+                        android:background="@drawable/fb_bg"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:text="Facebook"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:id="@+id/google"
+                        android:textColor="@color/white"
+                        android:layout_marginStart="5dp"
+                        android:drawableLeft="@drawable/lg"
+                        android:padding="10dp"
+                        android:background="@drawable/google_bg"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:text="Google"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_marginBottom="30dp"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:text="Want To Create Account?Sign UP"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
