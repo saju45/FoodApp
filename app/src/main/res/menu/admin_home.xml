@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:title="Home"
+        android:id="@+id/amdin_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        app:showAsAction="never"/>
+
+
+    <item
+        android:title="Create item"
+        android:id="@+id/create_item"
+        android:icon="@drawable/ic_myorder"
+        />
+
+    <item
+        android:title="Favorite"
+        android:id="@+id/admin_fvt"
+        android:icon="@drawable/ic_baseline_star_rate_24"
+    />
+
+    <item
+        android:title="profile"
+        android:id="@+id/admin_profile"
+        android:icon="@drawable/ic_baseline_person_24"
+        />
+
+</menu>
